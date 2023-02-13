@@ -9,9 +9,6 @@ function newTask ()
     {
         alert('Digite algo para inserir em sua lista')
     }
-    //else if ()
-
-    //increment to localStorage
     else {
         //puxando o testo do localStorage
         let values = JSON.parse(localStorage.getItem(localStorageKey) || "[]")
